@@ -1,5 +1,5 @@
 .home-page {
-  padding: 4rem 0;
+  padding-top: 50px;
   flex-direction: column;
   align-items: center;
 
@@ -7,6 +7,7 @@
   h2 {
     margin-bottom: 4rem;
     align-self: center;
+    font-size: 50px;
   }
   
   .user-card {
@@ -34,6 +35,7 @@
         line-height: 1;
         margin: 0;
         margin-left: 1rem;
+        font-size: 30px;
       }
     }
   }
