@@ -1,0 +1,17 @@
+<section class="stats-page">
+   <div id="waka1">
+
+      <google-chart 
+      [title]= "chartMktPrice.title"
+      [type]="chartMktPrice.type"
+      [data]="chartMktPrice.data"
+      [options]="chartMktPrice.options"
+      >
+   </google-chart>
+</div>
+    <google-chart
+    [title]= "chartConfirmedTrans.title"
+     [type]='chartConfirmedTrans.type' 
+     [data]="chartConfirmedTrans.data"
+        [options]="chartConfirmedTrans.options"></google-chart>
+</section>

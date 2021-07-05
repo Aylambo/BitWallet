@@ -1,0 +1,34 @@
+@import "../../../assets/styles/setup/variables";
+.move-preview {
+
+    display: flex;
+    box-shadow: 0 7px 30px -10px $clr2;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 7px;
+    width: 100%;
+
+    >* {
+        padding-bottom: 2px;
+        margin-right: 5px;
+    }
+    
+    p {
+        font-weight: 600;
+        span {
+            font-weight: 200;
+        }
+    }
+}
+
+
+@media (max-width: 480px) {
+    .move-preview {
+    flex-direction: column;
+    margin: 0px;
+    
+    }
+}
