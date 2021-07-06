@@ -1,8 +1,0 @@
-<div class="transfer-fund">
-    <h3>Transfer coins to <br/> <span>{{contact.name}}</span></h3>
-    <form #fundForm="ngForm" class="transfer-form" (ngSubmit)="onTransfer.emit(amount); fundForm.reset()">
-        <label for="amount"></label>
-        <input autocomplete="off" id="amount" type="number" name="amount" [(ngModel)]="amount" placeholder="Enter transfer amount">
-        <button class="btn-af">Transfer</button>
-    </form>
-</div>
